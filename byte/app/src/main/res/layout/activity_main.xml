@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <EditText
+            android:id="@+id/editText"
+            android:layout_width="200dp"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:background="@color/lightBlue"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold" />
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="200dp"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:background="@color/lightBlue"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+
+
+    <Switch
+            android:id="@+id/Switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:theme="@style/SwitchThemeOverlay"
+            android:checked="false"
+            android:text="1"
+            android:textOff="Off"
+            android:textOn="On" />
+
+    <Switch
+            android:id="@+id/Switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:theme="@style/SwitchThemeOverlay"
+            android:checked="false"
+            android:text="2"
+            android:textOff="Off"
+            android:textOn="On" />
+
+
+    <Switch
+            android:id="@+id/Switch4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:theme="@style/SwitchThemeOverlay"
+            android:checked="false"
+            android:text="4"
+            android:textOff="Off"
+            android:textOn="On" />
+
+    <Switch
+            android:id="@+id/Switch8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:theme="@style/SwitchThemeOverlay"
+            android:checked="false"
+            android:text="8"
+            android:textOff="Off"
+            android:textOn="On" />
+
+    <Switch
+            android:id="@+id/Switch16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:theme="@style/SwitchThemeOverlay"
+            android:checked="false"
+            android:text="16"
+            android:textOff="Off"
+            android:textOn="On" />
+
+    <Switch
+            android:id="@+id/Switch32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:theme="@style/SwitchThemeOverlay"
+            android:checked="false"
+            android:text="32"
+            android:textOff="Off"
+            android:textOn="On" />
+
+    <Switch
+            android:id="@+id/Switch64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:theme="@style/SwitchThemeOverlay"
+            android:checked="false"
+            android:text="64"
+            android:textOff="Off"
+            android:textOn="On" />
+
+    <Switch
+            android:id="@+id/Switch128"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:theme="@style/SwitchThemeOverlay"
+            android:checked="false"
+            android:text="128"
+            android:textOff="Off"
+            android:textOn="On" />
+
+
+</LinearLayout>
